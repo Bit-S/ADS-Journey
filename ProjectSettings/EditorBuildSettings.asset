@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/src/Menu/Menu.unity
+    guid: 72c64096b696a8acca79d8e137fcde38
+  - enabled: 1
+    path: Assets/src/Main/Main.unity
+    guid: 4141fea4683f0750b970d1343c74bfa5
+  - enabled: 1
+    path: Assets/src/Puzzles/SO/SOintro.unity
+    guid: 822311a89d0562345b5a01460b6c0923
+  - enabled: 1
+    path: Assets/src/Puzzles/SO/SOgame.unity
+    guid: a8e5932df34e3af438a8b992a4743e91
+  - enabled: 1
+    path: Assets/src/Puzzles/Mat Discreta/MatDiscIntro.unity
+    guid: b04b970f27dcb834f810de8027790cf7
+  - enabled: 1
+    path: Assets/src/Puzzles/Mat Discreta/MatDiscGame.unity
+    guid: 98bcfd9552590368e8fe65294a9cad74
+  - enabled: 1
+    path: Assets/src/Puzzles/Redes/RedesIntro1.unity
+    guid: 42d7d9b0be36fb9308bc64c5828d18d2
+  - enabled: 1
+    path: Assets/src/Puzzles/Redes/RedesGame1.unity
+    guid: 4b6f61b3c6a001ec0a3b3e2e7520e3fe
+  - enabled: 1
+    path: Assets/src/Puzzles/Redes/RedesIntro2.unity
+    guid: 2620225c082038b6db5bdd506141264a
+  - enabled: 1
+    path: Assets/src/Puzzles/Redes/RedesGame2.unity
+    guid: b4dcc9bde714c55acb7df0f30bffb13c
+  - enabled: 1
+    path: Assets/src/Puzzles/Algoritmo/AlgoritmoIntro.unity
+    guid: cf528089754f0a2baa7783de19b19a5e
+  - enabled: 1
+    path: Assets/src/Puzzles/Algoritmo/AlgoritmoGame.unity
+    guid: d56e2b7823e6b511dbd9bba34459ace0
+  - enabled: 1
+    path: Assets/src/Puzzles/Estrutura Dados/EstDadosIntro.unity
+    guid: dbd41bb06bc621441b8dc93444ba6d2d
+  - enabled: 1
+    path: Assets/src/Puzzles/Estrutura Dados/EstDadosGame.unity
+    guid: 621f1bb78373bed08b4e2217ca3728be
+  - enabled: 1
+    path: Assets/src/Puzzles/Gestao Projetos/GestaoProjetosIntro.unity
+    guid: d8679689517e94598a690995c096dbd2
+  - enabled: 1
+    path: Assets/src/Puzzles/Gestao Projetos/GestaoProjetosGame.unity
+    guid: 613efb410a4591848876747e12327f41
+  - enabled: 1
+    path: Assets/src/Puzzles/Bonus/Scenes/BonusPersistent.unity
+    guid: 8857398a6901d194f87929f5e797d9a2
+  - enabled: 1
+    path: Assets/src/Puzzles/Bonus/Scenes/BonusIntro.unity
+    guid: 757fdd8c275d4dc42bf6d7605af7c233
+  - enabled: 1
+    path: Assets/src/Puzzles/Bonus/Scenes/BonusGame.unity
+    guid: 66d467d998ca4ce4f8a037d734556ef8
+  - enabled: 1
+    path: Assets/src/Puzzles/Engenharia de Software/EngIntro.unity
+    guid: ef79e245ce2c9cb4cbdb6fdcd3ff66ff
+  - enabled: 1
+    path: Assets/src/Puzzles/Engenharia de Software/EngGame.unity
+    guid: 58b4c71b8942eb042acf3c67d11cabfd
+  - enabled: 1
+    path: Assets/src/Puzzles/Engenharia de Software/ENGResultado.unity
+    guid: 08dc06d6b74cdfd43b123ca1a60344aa
+  - enabled: 1
+    path: Assets/src/Puzzles/AOC/Scenes/AOCintro.unity
+    guid: 255bc036e3563634ea3682ad9d0b84c0
+  - enabled: 1
+    path: Assets/src/Puzzles/AOC/Scenes/AOCgame.unity
+    guid: 246872d347225dc489f36a4edd2735bf
+  - enabled: 1
+    path: Assets/src/Puzzles/BD/BDintro.unity
+    guid: c239bbc9476a0103489bfc26885c7220
+  - enabled: 1
+    path: Assets/src/Puzzles/BD/BDgame.unity
+    guid: 78672b5a107cb3543957b38172961cfc
+  - enabled: 1
+    path: Assets/src/Menu/About.unity
+    guid: 55f93edd2472e81419d73a382511b8b1
+  m_configObjects: {}
