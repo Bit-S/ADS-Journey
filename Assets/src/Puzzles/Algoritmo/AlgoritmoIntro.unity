@@ -1086,8 +1086,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Um software nada mais \xE9 que um conjunto de algoritmos integrados, constru\xEDdos
-    por programadores. Um algoritmo \xE9 um conjunto de instru\xE7\xF5es que o processador
-    deve executar sequencialmente para que o software interaja com o usu\xE1rio.\nOs
+    por programadores. Um algoritmo \xE9 um\x1A conjunto de instru\xE7\xF5es que o
+    processador deve executar sequencialmente para que o software interaja com o usu\xE1rio.\nOs
     processadores executam estas instru\xE7\xF5es uma a uma e cada instru\xE7\xE3o
     demora nanossegundos para serem executadas.\nExemplo de algoritmo que calcula
     IMC e mostra na tela se o IMC \xE9 bom ou n\xE3o:\n\naltura = x;\npeso = y;\nimc
@@ -1096,11 +1096,11 @@ MonoBehaviour:
     digitados pelo usu\xE1rio em uma caixa de texto, por exemplo.\n\nNeste desafio
     voc\xEA vai agir como um processador e executar as instru\xE7oes sequencialmente,
     uma a uma, do seguinte algoritmo:\n\nPegue a bike;\nSe a porta estiver aberta:\n
-    \    Entre;\nSen\xE3o:\n     Abra a porta;\n     Entre;\nMostre a carteirinha
-    pro guarda;\nSe ja\xE1 passou das 07:30:\n     Entre no bloco 1;\nSen\xE3o:\n
-    \     Volte at\xE9 a arvore;\n      Pegue a ma\xE7\xE3;\n      Volte para a faculdade;\n
-    \     Entre no bloco 2;\nFim\n\nUse o bot\xE3o do canto inferior direito (celular)
-    ou pressione espa\xE7o (PC) para interagir."
+    \    Entre;\nSen\xE3o:\n     Abra a porta;\n     Entre;\nMostre a car\x13teirinha
+    pro guarda;\nSe j\xE1 passou das 07:30:\n     Entre no bloco 1;\nSen\xE3o:\n      Volte
+    at\xE9 a arvore;\n      Pegue a ma\xE7\xE3;\n      Volte para a faculdade;\n      Entre
+    no bloco 2;\nFim\n\nUse o bot\xE3o do canto inferior direito (celular) ou pressione
+    espa\xE7o (PC) para interagir."
 --- !u!222 &1835778623
 CanvasRenderer:
   m_ObjectHideFlags: 0

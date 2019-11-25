@@ -257,7 +257,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1392578438}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.44657025
+  m_Size: 0.5102358
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1104,14 +1104,14 @@ RectTransform:
   m_GameObject: {fileID: 1754091333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7417458, z: 1}
+  m_LocalScale: {x: 1, y: 0.7046585, z: 1}
   m_Children: []
   m_Father: {fileID: 1429781824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -4}
+  m_AnchoredPosition: {x: 1, y: 11}
   m_SizeDelta: {x: -22, y: 133.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754091335
@@ -1151,14 +1151,14 @@ MonoBehaviour:
     simula\xE7\xE3o, h\xE1 8 pessoas no time, um barco e 2 lados. Voc\xEA deve guiar
     seu time para o lado direito, que representa o sucesso do projeto. Mas para isso,
     h\xE1 algumas regras a serem seguidas:\n\nNo m\xE1ximo 2 pessoas por vez no barco;\nDevs
-    front n\xE3o podem ficar com o Lider back sem o Lider front presente;\nDevs back
-    n\xE3o podem ficar com o Lider front sem o Lider back presente;\nO pregui\xE7oso
-    n\xE3o pode ficar em algum dos lados com qualquer pessoa sem que a Gerente esteja
-    no mesmo lado;\nApenas a Gerente, o Lider front e o Lider back s\xE3o capazes
-    de dirigir o barco\n\nToque no barco para transportar as pessoas para o outro
-    lado.\n\nTodo projeto necessita de uma metodologia e uma estrat\xE9gia, e \xE9
-    isto que voc\xEA vai exercitar agora. Qual a melhor estrat\xE9gia para levar todos
-    para o outro lado com todas estas regras?"
+    front n\xE3o podem ficar do mesmo lado que o Lider back sem o Lider front presente;\nDevs
+    back n\xE3o podem ficar do mesmo lado que o Lider front sem o Lider back presente;\nNingu\xE9m
+    pode ficar do mesmo lado que o pregui\xE7oso sem a presen\xE7a da gerente;\nApenas
+    a Gerente, o Lider front e o Lider back s\xE3o capazes de conduzir o barco\n\nToque
+    no barco para transportar as pessoas para o outro lado.\n\nTodo projeto necessita
+    de uma metodologia e uma estrat\xE9gia, e \xE9 isto que voc\xEA vai exercitar
+    agora. Qual a melhor estrat\xE9gia para levar todos para o outro lado com todas
+    estas regras?"
 --- !u!222 &1754091336
 CanvasRenderer:
   m_ObjectHideFlags: 0

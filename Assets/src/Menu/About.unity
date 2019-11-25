@@ -182,10 +182,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: "Este eh um projeto de TCC do curso de Analise e Desenvolvimento de Sistemas
-    da FATEC-SP. A ideia eh que voce conhe\xE7a um pouco algumas materias essenciais
-    do curso atraves de minigames.\nPara entrar na FATEC, se inscreva no vestibular
-    no site www.vestibularfatec.com.br\n\nBoa sorte :)"
+  m_Text: "Este \xE9 um projeto de TCC do curso de An\xE1\x13lise e Desenvolvimento
+    de Sistemas da FATEC-SP. A ideia \xE9 que voc\xEA conhe\xE7a um pouco algumas
+    mat\xE9rias essenciais do curso atraves de minigames.\nPara entrar na FATEC, se
+    inscreva no vestibular no site www.vestibularfatec.com.br\n\nBoa sorte :)"
 --- !u!222 &468177978
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -36,12 +36,6 @@ public class GameController : MonoBehaviour{
 		rodadaAtiva = true;
 	}
 
-	void Update(){
-		// if (rodadaAtiva){
-				
-		// }
-	}
-
 	private void ShowQuestion(){
 		RemoveAnswerButtons();
 

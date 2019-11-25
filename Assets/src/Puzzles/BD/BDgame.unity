@@ -4425,7 +4425,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Em breve
+  m_Text: "Banco de Dados \xE9 uma parte essencial no desenvolvimento de sistemas.
+    \xC9 nele que s\xE3o armazenados os dados dos sistemas, as informa\xE7\xF5es dos
+    usu\xE1rios, como nome e senha por exemplo. Cada dado \xE9 um campo, que s\xE3o
+    logicamente armazenados em tabelas.\nConhecer o seu funcionamento e como utiliz\xE1-lo
+    faz toda a diferen\xE7a na vida de um analista e desenvolvedor. O jogo a seguir
+    ira de dar uma breve no\xE7\xE3o de como funciona um dos bancos mais utilizados,
+    o MySql.\nVoc\xEA ir\xE1 ver como funciona uma consulta e uma tabela do MySql.\nUma
+    consulta serve para buscar dados, sejam eles espec\xEDficos ou mais gerais, em
+    uma tabela pedida."
 --- !u!222 &1742299280
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4542,7 +4550,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000020755395, y: 0.00002842598}
-  m_SizeDelta: {x: 0, y: 506.4}
+  m_SizeDelta: {x: 0, y: 441}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1802450602
 GameObject:

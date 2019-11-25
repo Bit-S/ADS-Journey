@@ -32,10 +32,6 @@ public class BancoDados : Game
 
 	}
 
-    void Update(){
-
-    }
-
     public void BtnTruePressed(){
         if (round==0){
             if((toggle1.GetComponent<Toggle>().isOn) && (toggle3.GetComponent<Toggle>().isOn) && (toggle6.GetComponent<Toggle>().isOn)) 
