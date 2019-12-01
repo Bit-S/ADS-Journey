@@ -742,7 +742,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490144469}
-  m_Text: site da fatec
+  m_Text: "site da \nfatec"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3892,7 +3892,7 @@ GameObject:
   - component: {fileID: 2077420162}
   - component: {fileID: 2077420161}
   m_Layer: 0
-  m_Name: Pointer
+  m_Name: Action
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

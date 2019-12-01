@@ -8,6 +8,7 @@
 
  public class GooglePlayGame : MonoBehaviour {
 
+	public static bool hasTriedToLogin = false;
 
  	public static void Init(){
  		PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder ().Build ();
@@ -115,6 +116,7 @@
  	}
 
 	public static void ShowAchievementsUI(){
+		Login(success => {});
 		Social.ShowAchievementsUI();
 	}
 

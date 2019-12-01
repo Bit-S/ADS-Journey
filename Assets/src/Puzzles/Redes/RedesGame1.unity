@@ -1074,7 +1074,7 @@ GameObject:
   - component: {fileID: 350979996}
   - component: {fileID: 350979997}
   m_Layer: 0
-  m_Name: Pointer
+  m_Name: Action
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

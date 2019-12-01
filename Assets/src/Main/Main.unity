@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 348075818}
   - component: {fileID: 348075819}
   m_Layer: 0
-  m_Name: touch
+  m_Name: Action
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

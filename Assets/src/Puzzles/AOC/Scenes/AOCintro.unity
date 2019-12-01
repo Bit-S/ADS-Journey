@@ -900,8 +900,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000014689419, y: 0}
-  m_SizeDelta: {x: 0, y: 1001.4}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 407.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1095715429
 GameObject:
@@ -1088,9 +1088,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Lucas \xE9 um estudante de Arquitetura e Organiza\xE7\xE3o de Computadores
-    e precisa de sua ajuda para colocar cada um dos hardwares do computador no lugar
-    correto."
+  m_Text: "Uma mat\xE9ria muito importante do curso \xE9 Arquitetura e Organiza\xE7\xE3o
+    de Computadores. Nessa disciplina voc\xEA aprende sobre os componentes de um computador,
+    sua origem e sua linguagem (bin\xE1rio). Neste puzzle voc\xEA dever\xE1 organizar
+    os hardwares em suas posi\xE7\xF5es corretas. Os hardwares s\xE3o:\n- Cooler:
+    Utilizado para evitar o superaquecimento do computador;\n- Mem\xF3ria: Utilizada
+    para o armazenamento de dados;\n- Placa de V\xEDdeo:  Utilizada para gerenciar
+    e coordenar as fun\xE7\xF5es de exibi\xE7\xE3o de video na tela;\n- Processador:
+    Utilizado para processar os dados armazenados no computador, seguindo uma ordem
+    de passos predeterminados."
 --- !u!222 &1663442155
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1266,8 +1272,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 444780248}
   m_HandleRect: {fileID: 444780247}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.36199486
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

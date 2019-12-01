@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80991596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8247, y: -2.5232, z: 89.329}
+  m_LocalPosition: {x: 3.8247, y: -2.5232, z: 95}
   m_LocalScale: {x: 1.1341062, y: 1.1341062, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -346,7 +346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98739446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.802, y: -1.9901, z: 89.329}
+  m_LocalPosition: {x: 3.802, y: -1.9901, z: 95}
   m_LocalScale: {x: 0.7302892, y: 0.92543066, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1133,8 +1133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000053099535, y: 0.00002842598}
-  m_SizeDelta: {x: 0, y: 506.4}
+  m_AnchoredPosition: {x: -0.00004582533, y: 0.00002842598}
+  m_SizeDelta: {x: 0, y: 404.5}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &744841849
 GameObject:
@@ -1291,7 +1291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801028104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5298, y: -0.66327, z: 89.329}
+  m_LocalPosition: {x: 3.5298, y: -0.66327, z: 95}
   m_LocalScale: {x: 0.73311967, y: 0.8317126, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1392,7 +1392,7 @@ RectTransform:
   m_Father: {fileID: 1791274705}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.28436017}
+  m_AnchorMin: {x: 0, y: 0.10407906}
   m_AnchorMax: {x: 1, y: 0.99999994}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1510,7 +1510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874513493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6205, y: -0.30035296, z: 89.329}
+  m_LocalPosition: {x: 3.6205, y: -0.30035296, z: 95}
   m_LocalScale: {x: 0.7342054, y: 0.69045, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1657,8 +1657,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 837523794}
   m_HandleRect: {fileID: 837523793}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.71563977
+  m_Value: 0.9999993
+  m_Size: 0.8959209
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1736,7 +1736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -4.0000153}
+  m_AnchoredPosition: {x: 1, y: -4}
   m_SizeDelta: {x: -22, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037422094
@@ -1772,18 +1772,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Um das mat\xE9rias mais importantes do curso \xE9 Engenharia de Software.
-    Neste puzzle voc\xEA deve ler atentamente o texto a seguir e organizar as entidades
-    (verde) e os relacionamentos (amarelo) na ordem certa.\n\nA \u201CEmpresa X\u201D
-    \xE9 a maior produtora de garrafas de \xE1gua do pa\xEDs, estando presente em
-    diversas regi\xF5es. A \u201CEmpresa X\u201D possui funcion\xE1rios que distribuem
-    lotes de garrafas pelos diversos com\xE9rcios, onde cada pessoa atende em m\xE9dia
-    8 estabelecimentos por dia. Esses representantes precisam das informa\xE7\xF5es
-    do estabelecimento, como CNPJ, telefone e o nome e RG do respons\xE1vel pelo recebimento
-    da carga. Para que o funcion\xE1rio do estabelecimento possa retirar o lote, \xE9
-    necess\xE1rio que seus dados tenham sido previamente cadastrados no banco de dados
-    da \u201CEmpresa X\u201D, gerando assim uma maior seguran\xE7a e gerenciamento
-    dos produtos e informa\xE7\xF5es. "
+  m_Text: "Uma mat\xE9ria muito importante do curso \xE9 Arquitetura e Organiza\xE7\xE3o
+    de Computadores. Nessa disciplina voc\xEA aprende sobre os componentes de um computador,
+    sua origem e sua linguagem (bin\xE1rio). Neste puzzle voc\xEA dever\xE1 organizar
+    os hardwares em suas posi\xE7\xF5es corretas. Os hardwares s\xE3o:\n- Cooler:
+    Utilizado para evitar o superaquecimento do computador;\n- Mem\xF3ria: Utilizada
+    para o armazenamento de dados;\n- Placa de V\xEDdeo:  Utilizada para gerenciar
+    e coordenar as fun\xE7\xF5es de exibi\xE7\xE3o de video na tela;\n- Processador:
+    Utilizado para processar os dados armazenados no computador, seguindo uma ordem
+    de passos predeterminados."
 --- !u!222 &1037422095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1865,7 +1862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043640959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6466, y: -1.10557, z: 89.329}
+  m_LocalPosition: {x: 7.6466, y: -1.10557, z: 95}
   m_LocalScale: {x: 1.1341062, y: 1.1341062, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2332,7 +2329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167659580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.692, y: -0.16425997, z: 89.329}
+  m_LocalPosition: {x: 7.692, y: -0.16425997, z: 95}
   m_LocalScale: {x: 0.7165159, y: 0.6509946, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2659,7 +2656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464743505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.85, y: -0.36839998, z: 100.67}
+  m_LocalPosition: {x: -4.2, y: -0.36839998, z: 100.67}
   m_LocalScale: {x: 0.7333902, y: 0.67561877, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2741,7 +2738,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529739942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5165, y: 1.741, z: 89.329}
+  m_LocalPosition: {x: 4.5165, y: 1.741, z: 95}
   m_LocalScale: {x: 0.5895051, y: 0.68052447, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3011,7 +3008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660026156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3911, y: -0.97463995, z: 89.329}
+  m_LocalPosition: {x: 3.3911, y: -0.97463995, z: 95}
   m_LocalScale: {x: 1.1341062, y: 1.1341062, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3536,7 +3533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043956314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5732, y: 1.1514001, z: 89.329}
+  m_LocalPosition: {x: 4.5732, y: 1.1514001, z: 95}
   m_LocalScale: {x: 1.1341062, y: 1.1341062, z: 1.1341062}
   m_Children: []
   m_Father: {fileID: 0}

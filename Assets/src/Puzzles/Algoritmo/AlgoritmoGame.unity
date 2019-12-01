@@ -3958,7 +3958,7 @@ GameObject:
   - component: {fileID: 1896446794}
   - component: {fileID: 1896446795}
   m_Layer: 0
-  m_Name: touch
+  m_Name: Action
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

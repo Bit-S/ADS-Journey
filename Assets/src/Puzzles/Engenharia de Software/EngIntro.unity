@@ -311,6 +311,80 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &439485142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439485143}
+  - component: {fileID: 439485145}
+  - component: {fileID: 439485144}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &439485143
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439485142}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0554111, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1762861318}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 15, y: 37}
+  m_SizeDelta: {x: 388.9, y: 240.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &439485144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439485142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 5c799cf3cb9e9dc9ab223f1a8f93399b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &439485145
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439485142}
+  m_CullTransparentMesh: 0
 --- !u!1 &510011450
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +537,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 510011452}
   m_HandleRect: {fileID: 510011451}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1137,6 +1211,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 439485143}
   - {fileID: 2076341758}
   m_Father: {fileID: 3985044}
   m_RootOrder: 0
@@ -1144,7 +1219,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.000016101247}
-  m_SizeDelta: {x: 0, y: 506.4}
+  m_SizeDelta: {x: 0, y: 897.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1860016074 stripped
 MonoBehaviour:
@@ -1236,8 +1311,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 25552727}
   m_HandleRect: {fileID: 25552726}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.7748814
+  m_Value: 1
+  m_Size: 0.40396827
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1311,11 +1386,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1762861318}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -4.7629547}
+  m_AnchoredPosition: {x: 1, y: -4.7630005}
   m_SizeDelta: {x: -22, y: -6.4741306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076341759
@@ -1351,18 +1426,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Um das mat\xE9rias mais importantes do curso \xE9 Engenharia de Software.
-    Neste puzzle voc\xEA deve ler atentamente o texto a seguir e organizar as entidades
-    (verde) e os relacionamentos (amarelo) na ordem certa.\n\nA \u201CEmpresa X\u201D
-    \xE9 a maior produtora de garrafas de \xE1gua do pa\xEDs, estando presente em
-    diversas regi\xF5es. A \u201CEmpresa X\u201D possui funcion\xE1rios que distribuem
-    lotes de garrafas pelos diversos com\xE9rcios, onde cada pessoa atende em m\xE9dia
-    8 estabelecimentos por dia. Esses representantes precisam das informa\xE7\xF5es
-    do estabelecimento, como CNPJ, telefone e o nome e RG do respons\xE1vel pelo recebimento
-    da carga. Para que o funcion\xE1rio do estabelecimento possa retirar o lote, \xE9
-    necess\xE1rio que seus dados tenham sido previamente cadastrados no banco de dados
-    da \u201CEmpresa X\u201D, gerando assim uma maior seguran\xE7a e gerenciamento
-    dos produtos e informa\xE7\xF5es. "
+  m_Text: "Em Engenharia de Software voc\xEA ir\xE1 aprender sobre o Modelo Entidade
+    Relacionamento, MER. O MER \xE9 um modelo de dados utilizado para organizar e
+    ordenar dados e definir um processo de neg\xF3cio. Entidades s\xE3o objetos que
+    se ligam atrav\xE9s de Relacionamentos, dados por uma cardinalidade. Neste puzzle
+    voc\xEA ter\xE1 que interpretar o texto abaixo e organizar de forma coerente as
+    entidades e os relacionamentos apresentados.\nNeste exemplo o paciente, m\xE9dico
+    e a receita s\xE3o as entidades e o \u201Cconsulta\u201D e \u201Cgera\u201D s\xE3o
+    os relacionamentos.\n\n\n\n\n\n\n\n\n\n\nA \u201CEmpresa X\u201D \xE9 a maior
+    produtora de garrafas de \xE1gua do pa\xEDs, estando presente em diversas regi\xF5es.
+    A \u201CEmpresa X\u201D possui funcion\xE1rios que distribuem lotes de garrafas
+    pelos diversos com\xE9rcios, onde cada pessoa atende em m\xE9dia 8 estabelecimentos
+    por dia. Esses representantes precisam das informa\xE7\xF5es do estabelecimento,
+    como CNPJ, telefone e o nome e RG do respons\xE1vel pelo recebimento da carga.
+    Para que o funcion\xE1rio do estabelecimento possa retirar o lote, \xE9 necess\xE1rio
+    que seus dados tenham sido previamente cadastrados no banco de dados da \u201CEmpresa
+    X\u201D, gerando assim uma maior seguran\xE7a e gerenciamento dos produtos e informa\xE7\xF5es."
 --- !u!222 &2076341760
 CanvasRenderer:
   m_ObjectHideFlags: 0

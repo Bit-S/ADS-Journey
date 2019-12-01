@@ -33,8 +33,10 @@ public class PlayerController : Game
 
     protected void DestroyMobileControls(){ 
         GameObject pointerR = GameObject.Find("PointerR"), pointerL = GameObject.Find("PointerL");
+        GameObject actionBtn = GameObject.Find("Action");
         Destroy(pointerR);
         Destroy(pointerL);
+        Destroy(actionBtn);
     }
 
     protected void Flip(bool bLeft)

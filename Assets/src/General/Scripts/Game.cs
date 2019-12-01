@@ -41,8 +41,11 @@ public class Game : MonoBehaviour
 
         nPuzzlesCompleted = PlayerPrefs.GetInt("nPuzzlesCompleted", 0);
 
-        GooglePlayGame.Init();
-        GooglePlayGame.Login(success => {});
+        if(!GooglePlayGame.hasTriedToLogin){
+            GooglePlayGame.Init();
+            GooglePlayGame.Login(success => {});
+            GooglePlayGame.hasTriedToLogin = true;
+        }
 
     }
 

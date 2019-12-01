@@ -34,15 +34,17 @@ public class BancoDados : Game
 
     public void BtnTruePressed(){
         if (round==0){
-            if((toggle1.GetComponent<Toggle>().isOn) && (toggle3.GetComponent<Toggle>().isOn) && (toggle6.GetComponent<Toggle>().isOn)) 
+            if((toggle1.GetComponent<Toggle>().isOn) && (toggle3.GetComponent<Toggle>().isOn) && (toggle6.GetComponent<Toggle>().isOn) && (!toggle2.GetComponent<Toggle>().isOn) && (!toggle4.GetComponent<Toggle>().isOn) && (!toggle5.GetComponent<Toggle>().isOn)){ 
                 StartCoroutine(HandleVictory());
+            }
             else {
                 StartCoroutine(HandleDefeat());
             } 
         }
         else{
-            if((toggle1.GetComponent<Toggle>().isOn) && (toggle6.GetComponent<Toggle>().isOn)) 
+            if((toggle1.GetComponent<Toggle>().isOn) && (toggle6.GetComponent<Toggle>().isOn) && (!toggle2.GetComponent<Toggle>().isOn) && (!toggle3.GetComponent<Toggle>().isOn) && (!toggle4.GetComponent<Toggle>().isOn) && (!toggle5.GetComponent<Toggle>().isOn)){
                 StartCoroutine(HandleVictory());
+            }
             else {
                 StartCoroutine(HandleDefeat());
             }
